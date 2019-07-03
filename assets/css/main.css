@@ -2001,7 +2001,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 1px #e44c65;
-			color: ##e44c65 !important;
+			color: #e44c65 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -2017,12 +2017,12 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #e44c65;
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(49, 215, 155, 0), #e44c65 80%);
+			background-color: #fdfdfd;
+			background-image: url("../../images/overlay.png");
 			background-size: auto, auto;
 			background-repeat: repeat, no-repeat;
 			box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
-			color: #ffffff !important;
+			color: #e44c65 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2031,7 +2031,7 @@ input, select, textarea {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: #e44c65;
-				color: #000000
+				color: #fdfdfd !important;
 			}
 
 				input[type="submit"].primary:hover:active,
@@ -2040,7 +2040,7 @@ input, select, textarea {
 				button.primary:hover:active,
 				.button.primary:hover:active {
 					background-color: #e44c65;
-					color: #000000
+					color: #fdfdfd !important;
 				}
 
 /* Form */
@@ -4011,6 +4011,7 @@ input, select, textarea {
 
 				.dropotron li.active > a {
 					color: #e44c65;
+					
 				}
 
 			.dropotron a {
@@ -4019,10 +4020,12 @@ input, select, textarea {
 				text-decoration: none !important;
 				border: 0;
 				font-size: 0.9rem;
+				
 			}
 
 				.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
 					color: #e44c65;
+					font-weight: bold;
 				}
 
 			body.header-alt .dropotron.level-0 {
@@ -4263,7 +4266,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			
 			width: 7rem;
 		}
 
