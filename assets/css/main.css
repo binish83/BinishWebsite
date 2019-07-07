@@ -3160,6 +3160,7 @@ input, select, textarea {
 
 			.spotlights section:first-child {
 				margin-top: 0;
+				padding-bottom: 3rem;
 			}
 
 			.spotlights section:nth-child(2n) {
