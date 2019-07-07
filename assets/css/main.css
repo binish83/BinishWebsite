@@ -3744,10 +3744,7 @@ input, select, textarea {
 		#header a {
 			color: #ffffff;
 		}
-		#header a:hover { 
-			color: #e44c65;
-			font-weight: bold;
-		  }
+	
 
 		#header strong, #header b {
 			color: #ffffff;
