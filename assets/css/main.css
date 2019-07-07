@@ -178,7 +178,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 200;
-		line-height: 1.5;
+		line-height: 1;
 		margin: 0 0 1.5rem 0;
 		text-transform: uppercase;
 	}
@@ -3120,6 +3120,8 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			margin-top: -3rem;
+			
+			
 		}
 
 			.spotlights section .image {
@@ -3160,7 +3162,7 @@ input, select, textarea {
 
 			.spotlights section:first-child {
 				margin-top: 0;
-				padding-bottom: 3rem;
+				
 			}
 
 			.spotlights section:nth-child(2n) {
@@ -3169,6 +3171,7 @@ input, select, textarea {
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
 				text-align: right;
+				
 			}
 
 				.spotlights section:nth-child(2n) .image {
