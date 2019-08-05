@@ -3120,6 +3120,7 @@ input, select, textarea {
 			display: -ms-flex;
 			display: flex;
 			margin-top: -3rem;
+			margin-bottom: 10rem;
 			
 			
 		}
@@ -3140,7 +3141,7 @@ input, select, textarea {
 			}
 
 				.spotlights section .image img {
-					border-radius: 100%;
+					border-radius: 10%;
 					display: block;
 					width: 100%;
 				}
@@ -4332,3 +4333,5 @@ input, select, textarea {
 		box-shadow: 0 0 6rem 0 rgba(0, 0, 0, 0.125);
 		visibility: visible;
 	}
+
+	
