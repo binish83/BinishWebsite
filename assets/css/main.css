@@ -3167,11 +3167,11 @@ input, select, textarea {
 			}
 
 			.spotlights section:nth-child(2n) {
-				-moz-flex-direction: row-reverse;
+				/* -moz-flex-direction: row-reverse; */
 				-webkit-flex-direction: row-reverse;
-				-ms-flex-direction: row-reverse;
+				/* -ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: right; */
 				
 			}
 
@@ -3179,10 +3179,10 @@ input, select, textarea {
 					margin: 0 0 0 6rem;
 				}
 
-				.spotlights section:nth-child(2n) .content header.major h3:after {
+				/* .spotlights section:nth-child(2n) .content header.major h3:after {
 					margin-left: auto;
 					margin-right: 0;
-				}
+				} */
 
 		@media screen and (max-width: 1280px) {
 
