@@ -3141,7 +3141,7 @@ input, select, textarea {
 			}
 
 				.spotlights section .image img {
-					border-radius: 10%;
+					border-radius: 0%;
 					display: block;
 					width: 100%;
 				}
