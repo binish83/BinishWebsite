@@ -3131,15 +3131,16 @@ input, select, textarea {
 				-ms-flex-shrink: 0;
 				flex-shrink: 0;
 				border-radius: 100%;
-				box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+				/* box-shadow: 0 0.5rem 3rem 0 rgba(0, 0, 0, 0.25); */
 				margin: 0 6rem 0 0;
 				width: 30rem;
 			}
 
 				.spotlights section .image img {
-					border-radius: 0%;
+					border-radius: 20%;
 					display: block;
-					width: 100%;
+					border: 3px solid #e44c65;
+					width: 80%;
 				}
 
 			.spotlights section .content {
@@ -3420,7 +3421,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		background-attachment: fixed, fixed;
-		background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/image1.jpg");
+		background-image:  url("../../images/image1.jpg");
 		background-position: center, center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -3496,11 +3497,11 @@ input, select, textarea {
 		}
 
 		#banner strong, #banner b {
-			color: #ffffff;
+			color: #e44c65;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#banner blockquote {
@@ -3517,7 +3518,7 @@ input, select, textarea {
 		}
 
 		#banner header.major h1:after, #banner header.major h2:after, #banner header.major h3:after, #banner header.major h4:after, #banner header.major h5:after, #banner header.major h6:after {
-			background: #ffffff;
+			background: #e44c65;
 		}
 
 		#banner:after {
@@ -3705,10 +3706,10 @@ input, select, textarea {
 		}
 
 	#header {
-		background-color: #3a3a3a;
+		background-color: #ffffff;
 		color: #ffffff;
-		background-color: #e44c65;
-		background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(49, 215, 155, 0), #e44c65 90%);
+		background-color: #ffffff;
+		background-image: url("../../images/overlay.png"), #ffffff 90%);
 		background-size: auto, auto;
 		background-repeat: repeat, no-repeat;
 		-moz-align-items: center;
@@ -3739,16 +3740,16 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #e44c65;
 		}
 	
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #e44c65;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #e44c65;
 		}
 
 		#header blockquote {
@@ -3964,7 +3965,7 @@ input, select, textarea {
 						}
 
 				#nav > ul > li.current a, #nav > ul > li.current span {
-					background-color: rgba(255, 255, 255, 0.05);
+					background-color: #ffffff;
 				}
 
 				#nav > ul > li.active a, #nav > ul > li.active span {
