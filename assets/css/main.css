@@ -3461,12 +3461,12 @@ input, select, textarea {
 			#banner input[type="button"].primary,
 			#banner button.primary,
 			#banner .button.primary {
-				background-color: #e44c65;
+				background-color: #ffffff;
 				background-image: url("../../images/overlay.png");
 				background-size: auto, auto;
 				background-repeat: repeat, no-repeat;
 				box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
-				color: #ffffff !important;
+				color: #e44c65 !important;
 			}
 
 				#banner input[type="submit"].primary:hover,
