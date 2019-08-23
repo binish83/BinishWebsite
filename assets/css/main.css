@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i");
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,400,400i&display=swap');
+/* @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,200i,400,400i"); */
 
 
 
@@ -141,7 +142,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "IBM Plex Sans", Helvetica, sans-serif;
+		font-family: "Muli", Helvetica, sans-serif;
 		font-weight: 200;
 		font-size: 1rem;
 		line-height: 2;
@@ -152,7 +153,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		text-decoration: none;
 	}
 
